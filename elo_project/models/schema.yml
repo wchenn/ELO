@@ -1,0 +1,18 @@
+version 2:
+
+models:
+  - name: events
+    description:
+
+    columns: 
+      - name: events
+        description:
+        tests:
+        - unique
+        - not_null
+
+      - name: movescores
+        description: 50,000 games in portable game notation from the Stockfish chess engine.  Numbers represent values of pieces and positions in centipawns.  If value is negative, black has advantage
+        tests:
+        - unique
+        - not_null

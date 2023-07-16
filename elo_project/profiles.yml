@@ -1,0 +1,21 @@
+company-name:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: 7751
+      port: 5432
+      dbname: ELO
+      schema: public
+      threads:
+      keepalives_idle: 0
+      connect_timeout: 10
+      retries: 1
+      search_path:
+      role:
+      sslmode:
+      sslcert:
+      sslkey:
+      sslrootcert:
