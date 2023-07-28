@@ -1,0 +1,34 @@
+
+version: 2
+
+sources:
+  - name: elo
+    description: 'database on postgres'
+    database: elodata
+    schema: public
+    tables:
+      - name: elodata
+        description: 'details about event and movescore'
+        
+
+
+
+
+# models:
+#   - name: my_first_dbt_model
+#     description: "A starter dbt model"
+#     columns:
+#       - name: id
+#         description: "The primary key for this table"
+#         tests:
+#           - unique
+#           - not_null
+
+#   - name: my_second_dbt_model
+#     description: "A starter dbt model"
+#     columns:
+#       - name: id
+#         description: "The primary key for this table"
+#         tests:
+#           - unique
+#           - not_null

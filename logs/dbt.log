@@ -1,0 +1,105 @@
+[0m12:29:27.352309 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000161E7D0DA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000161E9F58E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000161E9F59060>]}
+
+
+============================== 12:29:27.355313 | 4e522d2f-c5c8-4c1a-9280-0b78eff554fb ==============================
+[0m12:29:27.355313 [info ] [MainThread]: Running with dbt=1.5.3
+[0m12:29:27.356309 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\willi\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m12:29:27.357311 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/willi/.dbt')}
+[0m12:29:27.357311 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m12:29:27.359311 [error] [MainThread]: Encountered an error:
+1
+[0m12:29:27.361313 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\willi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\willi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\willi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\main.py", line 459, in init
+    results = task.run()
+  File "C:\Users\willi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\task\init.py", line 287, in run
+    sys.exit(1)
+SystemExit: 1
+
+[0m12:29:27.363313 [debug] [MainThread]: Command `dbt init` failed at 12:29:27.362310 after 0.02 seconds
+[0m12:29:27.363313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000161E7D0DA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000161E9F58D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000161E9F58D60>]}
+[0m12:29:27.364309 [debug] [MainThread]: Flushing usage events
+[0m13:23:43.668928 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002662834DA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002662A598EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002662A5990F0>]}
+
+
+============================== 13:23:43.668928 | ce073eea-5637-4c4b-9a73-0ba7691a522e ==============================
+[0m13:23:43.668928 [info ] [MainThread]: Running with dbt=1.5.3
+[0m13:23:43.668928 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\willi\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:23:43.682706 [error] [MainThread]: Encountered an error:
+1
+[0m13:23:43.695213 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\willi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\willi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\willi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\main.py", line 459, in init
+    results = task.run()
+  File "C:\Users\willi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\task\init.py", line 287, in run
+    sys.exit(1)
+SystemExit: 1
+
+[0m13:23:43.710956 [debug] [MainThread]: Command `dbt init` failed at 13:23:43.709956 after 0.04 seconds
+[0m13:23:43.710956 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002662834DA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002662A598D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002662A599030>]}
+[0m13:23:43.710956 [debug] [MainThread]: Flushing usage events
+[0m15:26:18.495437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002238951DA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002238B764E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002238B7650C0>]}
+
+
+============================== 15:26:18.498438 | eed08f3a-fa67-42e6-bb0c-bc3af88796b2 ==============================
+[0m15:26:18.498438 [info ] [MainThread]: Running with dbt=1.5.3
+[0m15:26:18.500442 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\willi\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m15:26:22.029618 [debug] [MainThread]: Starter project path: C:\Users\willi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m15:26:26.679993 [info ] [MainThread]: Profile ELO written to C:\Users\willi\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m15:26:26.681000 [info ] [MainThread]: 
+Your new dbt project "ELO" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:26:26.682997 [debug] [MainThread]: Command `dbt init` succeeded at 15:26:26.682997 after 8.20 seconds
+[0m15:26:26.683993 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002238951DA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000223897C7A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002238B764E80>]}
+[0m15:26:26.683993 [debug] [MainThread]: Flushing usage events
+[0m17:10:16.945407 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDBEB7DA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDC0DC5960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDC0DC57B0>]}
+
+
+============================== 17:10:16.949440 | 83652544-7f0e-4e63-9ddf-d28d2328c3b1 ==============================
+[0m17:10:16.949440 [info ] [MainThread]: Running with dbt=1.5.3
+[0m17:10:16.950439 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\willi\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m17:10:16.950439 [info ] [MainThread]: dbt version: 1.5.3
+[0m17:10:16.951441 [info ] [MainThread]: python version: 3.10.5
+[0m17:10:16.952441 [info ] [MainThread]: python path: C:\Users\willi\AppData\Local\Programs\Python\Python310\python.exe
+[0m17:10:16.953443 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m17:10:16.954446 [info ] [MainThread]: Using profiles.yml file at C:\Users\willi\.dbt\profiles.yml
+[0m17:10:16.955457 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\willi\OneDrive\Desktop\ELO\dbt_project.yml
+[0m17:10:16.956449 [info ] [MainThread]: Configuration:
+[0m17:10:17.003431 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m17:10:17.005425 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:10:17.006425 [info ] [MainThread]: Required dependencies:
+[0m17:10:17.006425 [debug] [MainThread]: Executing "git --help"
+[0m17:10:17.043027 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:10:17.044022 [debug] [MainThread]: STDERR: "b''"
+[0m17:10:17.044022 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:10:17.045024 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:10:17.046530 [info ] [MainThread]: Could not load dbt_project.yml
+
+[0m17:10:17.047539 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "ELO", target "dev" invalid: 7751 is not of type 'string'
+
+
+[0m17:10:17.048537 [debug] [MainThread]: Command `dbt debug` failed at 17:10:17.048537 after 0.13 seconds
+[0m17:10:17.049538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDBEB7DA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDC0DC4D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BDC0EFCA00>]}
+[0m17:10:17.049538 [debug] [MainThread]: Flushing usage events
